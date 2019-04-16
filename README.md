@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/jekyll-image-optim.svg)](https://badge.fury.io/rb/jekyll-image-optim)
+
 # image_optim-jekyll-plugin
 A simple Jekyll plugin (forked from [chrisanthropic/image_optim-jekyll-plugin]) to optimize images using [image_optim].
 
@@ -49,10 +51,32 @@ You see three changes:
 
 ---
 ### Installation
+#### RubyGem
+To install as a gem, add this line to your Jekyll site's `Gemfile` under the `:jekyll_plugins` group:
 
+```ruby
+gem "jekyll-image-optim"
+```
+
+Then add this line to your Jekyll site's `_config.yml` under `plugins`:
+
+```yaml
+plugins:
+  - jekyll-image-optim
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install jekyll-image-optim
+
+#### Manual install
 Add to your Gemfile:
 
-```
+```ruby
 gem 'image_optim'
 gem 'image_optim_pack'
 ```

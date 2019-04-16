@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/chrisanthropic/image_optim-jekyll-plugin"
   spec.license       = "MIT"
 
-  spec.files         = ["image_optim.rb"]
+  spec.files         = ["lib/image_optim.rb"]
 
   spec.add_runtime_dependency "image_optim", "~> 0.26"
   spec.add_runtime_dependency "image_optim_pack", "~> 0.5"

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-image-optim"
-  spec.version       = "1.0.1"
+  spec.version       = "1.0.2"
   spec.authors       = ["Areeb Khan"]
   spec.email         = ["areebk@protonmail.com"]
 
@@ -13,6 +13,6 @@ Gem::Specification.new do |spec|
 
   spec.files         = ["lib/image_optim.rb"]
 
-  spec.add_runtime_dependency "image_optim", "~> 0.26"
-  spec.add_runtime_dependency "image_optim_pack", "~> 0.5"
+  spec.add_runtime_dependency "image_optim"
+  spec.add_runtime_dependency "image_optim_pack"
 end

@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-image-optim"
-  spec.version       = "1.0.3"
+  spec.version       = "1.0.4"
   spec.authors       = ["Areeb Khan"]
   spec.email         = ["areebk@protonmail.com"]
 
   spec.summary       = "A simple Jekyll plugin to optimize images using image_optim"
-  spec.description   = "Plugin to compress images. Configuration and usage instructions can be found at https://github.com/chrisanthropic/image_optim-jekyll-plugin"
-  spec.homepage      = "https://github.com/chrisanthropic/image_optim-jekyll-plugin"
+  spec.description   = "A simple Jekyll plugin to optimize images using image_optim. Configuration and usage instructions can be found at https://github.com/ask616/jekyll-image-optim"
+  spec.homepage      = "https://github.com/ask616/jekyll-image-optim"
   spec.license       = "MIT"
 
   spec.files         = ["lib/jekyll-image-optim.rb"]

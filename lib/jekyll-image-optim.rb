@@ -23,7 +23,7 @@ module Jekyll
           :verbose => false,
           :pngquant => {:quality => 70..85},  #min..max - don't save below min, use less colors below max (both in range 0..100; in yaml - !ruby/range 0..100), ignored in default/lossless mode (defaults to 100..100, 0..100 in lossy mode)
           :jpegrecompress => {:quality => 0},   #JPEG quality preset: 0 - low, 1 - medium, 2 - high, 3 - veryhigh (defaults to 3)
-          :jpegoptim => {:max_quality => 50}
+          :jpegoptim => {:max_quality => 85}
         })
 
       # Read the cache file, if it exists.
